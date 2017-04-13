@@ -1,0 +1,231 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption,
+th {
+  text-align: left;
+  font-weight: normal;
+}
+
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+  border: 0;
+}
+
+i,
+cite,
+em,
+var,
+address,
+dfn {
+  font-style: normal;
+}
+
+[hidefocus],
+summary {
+  outline: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+  font-size: 100%;
+}
+
+sup,
+sub {
+  font-size: 83%;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: inherit;
+}
+
+q:before,
+q:after {
+  content: none;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+label,
+summary {
+  cursor: default;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+  font-weight: normal;
+}
+
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+  text-decoration: none;
+}
+
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend {
+  font: 12px/1.14 arial, 'microsoft yahei';
+  color: #333;
+  outline: 0;
+}
+
+body {
+  background: #fff;
+}
+
+a,
+a:hover {
+  color: #333;
+}
+
+.container {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.container:before, .container:after {
+  content: ' ';
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.container .colorBlock {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  user-select: none;
+}
+
+.container .colorBar {
+  position: relative;
+  float: left;
+  margin-right: 60px;
+  user-select: none;
+}
+
+.container .control {
+  position: absolute;
+  left: 6px;
+  top: 100px;
+  box-sizing: border-box;
+  width: 18px;
+  height: 16px;
+  border: 4px solid #f00;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container .control:active {
+  cursor: move;
+}
+
+.container .inputGroup {
+  float: left;
+}
+
+.container .inputGroup label {
+  display: block;
+  margin: 20px 0;
+}
+
+.container .inputGroup label input {
+  width: 100px;
+  height: 20px;
+  margin-left: 20px;
+  padding: 0 6px;
+}
